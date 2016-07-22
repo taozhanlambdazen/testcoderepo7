@@ -1,0 +1,34 @@
+{
+  "uri" : "local://kBYsMS2jIIArLKVMpiFWH3/",
+  "name" : "Routing Table",
+  "category" : ".route",
+  "parent" : "local://wJ3qwAQY6HAEBaUNg3aAnA/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_routes_routes",
+    "expr" : {
+      "json" : {
+        "/" : "/view/cjsapptest/yoke/G-TiInLlhX8waK5P5ywWi2/",
+        "dashboard" : "/view/cjsapptest/yoke/G-TiInLlhX8waK5P5ywWi2/",
+        "connector" : "/view/cjsapptest/yoke/xUUBL6lE8u8JTqy6OR8-x9/",
+        "card" : "/view/cjsapptest/yoke/GUS-ywvr_KAzU4tUE7Qo9B/"
+      },
+      "type" : "JSON"
+    }
+  }, {
+    "name" : "routes",
+    "expr" : {
+      "concept" : "/common/core/gc0QIG4qmQBJH4yKP0c8e9/",
+      "bindings" : {
+        "routes" : "_routes_routes"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "routes"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}
