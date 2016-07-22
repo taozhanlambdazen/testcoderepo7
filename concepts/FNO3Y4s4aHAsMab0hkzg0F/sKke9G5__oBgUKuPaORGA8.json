@@ -1,0 +1,30 @@
+{
+  "uri" : "local://sKke9G5__oBgUKuPaORGA8/",
+  "name" : "test",
+  "category" : "",
+  "parent" : "local://FNO3Y4s4aHAsMab0hkzg0F/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<html>\n    <body>\n        <h1>Hello World</h1>\n    </body>\n</html>",
+      "strEditMode" : "html",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
+      "bindings" : {
+        "html" : "htmlTemplate"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}

@@ -1,0 +1,54 @@
+{
+  "uri" : "local://FNO3Y4s4aHAsMab0hkzg0F/",
+  "name" : "testcoderepo7 (Repository)",
+  "category" : "",
+  "pname" : "Folder",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "folderName",
+    "expr" : {
+      "str" : "testcoderepo7",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "_folder_description",
+    "expr" : {
+      "str" : "Double-click here, or click the Edit button on the top-left, to edit the description",
+      "strEditMode" : "",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "folder",
+    "expr" : {
+      "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
+      "bindings" : {
+        "name" : "folderName",
+        "description" : "_folder_description"
+      },
+      "type" : "CONCEPT"
+    }
+  }, {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/cjsapptest/testcoderepo7/",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "folder"
+  }, {
+    "var" : "repo"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}
